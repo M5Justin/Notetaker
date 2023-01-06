@@ -8,5 +8,6 @@
     This application is designed to take in user notes, save them to a json file, and keep them organized 
     for later use
 
-## visuals
-    ![Website preview](./public/assets/localhost_3001_.png)
+## Visuals
+    ![Website preview](public/assets/images/localhost_3001_.png)
+
