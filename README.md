@@ -1,5 +1,5 @@
 # Notetaker
-[Link to my project](https://notetaker-production-3b0a.up.railway.app/)
+[Link to my project](https://radiant-beyond-07014.herokuapp.com/)
 
 ## Table of Contents
 - [Description](#description)
