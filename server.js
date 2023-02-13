@@ -11,6 +11,13 @@ app.use(express.json());
 
 // routes
 
+app.get('/', (req, res) => {
+
+})
+
+app.get('/notes', (req, res) => {
+
+})
 
 app.listen(PORT);
 
