@@ -26,7 +26,8 @@ app.get('/notes', (req, res) => {
 
 app.get('/api/posts', (req, res) => {
   const noteData = fs.readFileSync('./db/db.json', "utf-8");
-  console.log(noteData);
+  const notes = JSON.parse(noteData);
+  res.json(notes);
 })
 
 app.post('/api/posts', (req, res) => {
