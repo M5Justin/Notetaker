@@ -20,5 +20,16 @@ app.get('/notes', (req, res) => {
 
 })
 
+
+// api
+
+app.get('/api/posts', (req, res) => {
+  
+})
+
+app.post('/api/posts', (req, res) => {
+ 
+})
+
 app.listen(PORT);
 
