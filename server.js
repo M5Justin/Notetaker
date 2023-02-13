@@ -1,5 +1,6 @@
 const express = require('express');
 const path = require('path');
+const fs = require('fs');
 const app = express();
 
 const PORT = process.env.PORT || 3001;
@@ -24,7 +25,8 @@ app.get('/notes', (req, res) => {
 // api
 
 app.get('/api/posts', (req, res) => {
-  
+  const noteData = fs.readFileSync('./db/db.json', "utf-8");
+  console.log(noteData);
 })
 
 app.post('/api/posts', (req, res) => {
